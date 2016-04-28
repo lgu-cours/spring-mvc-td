@@ -25,7 +25,7 @@ public class HelloController {
 
 	   @RequestMapping("/hello/{name}")
 	   public String hello2 (ModelMap model, @PathVariable("name") String name ) {
-	      System.out.println("==> call 'hello2' name = '" + name + "'");
+	      System.out.println("==> call 'hello/{name}' name = '" + name + "'");
 		
 	      model.addAttribute("name", name);
 			
