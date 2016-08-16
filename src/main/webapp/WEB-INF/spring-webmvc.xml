@@ -12,6 +12,9 @@
  
  	<!-- Where to search the controllers -->
 	<context:component-scan base-package="td.spring.mvc.controllers" />
+
+ 	<!-- Where to search the services -->
+	<context:component-scan base-package="td.spring.mvc.services" />
  
  	<mvc:annotation-driven />
  	
